@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Configuración base de la API
-const API_BASE_URL = '/api'; 
+const API_BASE_URL = 'https://proyectodesarrollowebintegrado-production.up.railway.app/api'; 
 
 const api = axios.create({
   baseURL: API_BASE_URL,
